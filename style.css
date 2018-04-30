@@ -1,0 +1,16 @@
+/* Copied from here: https://stackoverflow.com/questions/272799/vertical-rotated-text-in-html-table */
+.rotate {
+     -moz-transform: rotate(90deg);  /* FF3.5+ */
+       -o-transform: rotate(90deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+}
+
+.bar {
+    margin: 10px;
+    background-color: red;
+    display: inline-block;
+}
+
+#game {
+    display: flex;
+}
